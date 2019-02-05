@@ -6,10 +6,10 @@ def array_with_two_elements
   my_two_array = ["Titi", "Baha"]
 end
 
-def first_element()
-  
+def first_element(array)
+  array[0]
 end
 
-def third_element
-
+def third_element(array)
+ array[2]
 end
